@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Dark mode toggle button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <!-- Replace with your initials or name -->
+                <span><a href="#intro" class="logo-text">&lt; Ben / &gt;</a></span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="/img/RESUME KO.pdf" target="_blank" class="nav-link nav-resume">Resume</a></li>
+            </ul>
+
+            <!-- Mobile menu toggle -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="intro" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-greeting">Hi, my name is</h1>
+            <h2 class="hero-name">Benedict Bernadas</h2>
+            <h3 class="hero-title"><span id="typing-text"></span></h3>
+            <p class="hero-description">
+                I'm a passionate developer interested in building digital experiences.
+                Currently exploring modern web technologies and creating impactful solutions.
+            </p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+
+        <!-- Decorative line with section number -->
+        <div class="hero-side">
+            <div class="vertical-line"></div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider"></div>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="section-number">01.</span>
+                <span>About</span>
+            </h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <!-- Replace this with your about information -->
+                    <p>Hello! I’m a self-driven developer passionate about building digital experiences that are both visually engaging and highly functional. During my time at National Teachers College, I developed a strong interest in creating user-centered applications that solve real-world problems.
+                    </p>
+                    <p>
+                        My journey in technology began in senior high school, where I built my very first project and discovered my enthusiasm for development. Since then, I’ve continued to explore different tools, platforms, and programming languages, allowing me to grow as a developer and strengthen my problem-solving skills.
+                    </p>
+                    <p>
+                        I enjoy learning new technologies and continuously improving my craft through hands-on projects and real-world practice. I’m always excited to take on new challenges and contribute to meaningful digital solutions.
+                    </p>
+                    <p>
+                        Here are a few technologies I've been working with recently:
+                    </p>
+
+                    <div class="tech-list-container">
+                        <div class="tech-category">
+                            <h4 class="tech-category-title">Frontend</h4>
+                            <ul class="tech-list">
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                <li>HTML/CSS</li>
+                                <li>Tailwind CSS</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-category">
+                            <h4 class="tech-category-title">Backend</h4>
+                            <ul class="tech-list">
+                                <li>Node.js</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Replace with your photo -->
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="./img/FORMAL PIC.png" alt="Photo of Ben">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider"></div>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="section-number">02.</span>
+                <span>Experience</span>
+            </h2>
+
+            <div class="experience-content">
+                <!-- EXPERIENCE ITEM 1 - Replace all content with your own -->
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3 class="experience-title">Computer Attendant</h3>
+                        <h4 class="experience-company">
+                            <a href="#" target="_blank">GSM100</a>
+                        </h4>
+                        <p class="experience-date">2016 - 2019 | Manila </p>
+                    </div>
+                    <div class="experience-description">
+                        <p>
+                            Assisted customers with computer usage, printing services, and technical concerns in a busy computer shop environment. Provided troubleshooting support and ensured smooth daily operations.
+                        </p>
+                        <ul>
+                            <li>Maintained computer systems and ensured stable internet connectivity</li>
+                            <li>Managed payments and handled customer service inquiries</li>
+                            <li>Troubleshot hardware and software problems to minimize downtime</li>
+                        </ul>
+                        <p class="experience-tools"><strong>Tools:</strong> Windows OS, Basic Networking, Microsoft Office, Troubleshooting</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider"></div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="section-number">03.</span>
+                <span>Projects</span>
+            </h2>
+
+            <div class="projects-grid">
+                <!-- PROJECT 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="./img/ec.png" alt="Project Screenshot">
+                            <p>Project Screenshot</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">School E-Commerce</h3>
+                        <p class="project-description">
+                        Developed a school-based e-commerce platform that allows students to browse, order, and purchase school merchandise online. The system includes product management, cart functionality, and order tracking features.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="http://localhost/ecommerce" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider"></div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="section-number">04.</span>
+                <span>Skills</span>
+            </h2>
+
+            <div class="skills-grid">
+                <!-- SKILLS CATEGORY 1 -->
+                <div class="skill-category">
+                    <h3 class="category-title">Languages</h3>
+                    <ul class="skill-list">
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+
+                <!-- SKILLS CATEGORY 2 -->
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <ul class="skill-list">
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
+                </div>
+
+                <!-- SKILLS CATEGORY 3 -->
+                <div class="skill-category">
+                    <h3 class="category-title">Backend</h3>
+                    <ul class="skill-list">
+                        <li>Node.js</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+
+                <!-- SKILLS CATEGORY 4 -->
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Other</h3>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider"></div>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="section-number">05.</span>
+                <span>Education</span>
+            </h2>
+
+            <div class="education-content">
+                <!-- EDUCATION 1 - Replace with your education -->
+                <div class="education-item">
+                    <div class="education-header">
+                        <h3 class="degree-title">College</h3>
+                        <h4 class="school-name">
+                            <a href="https://ntc.edu.ph/" target="_self">National Teachers University</a>
+                        </h4>
+                        <p class="education-date">2025 - 2026 | 629 J Nepomuceno St, Quiapo, Manila</p>
+                        <p class="gpa"><strong>GPA:</strong> X.XX/4.0</p>
+                    </div>
+                    <div class="education-description">
+                        <p>
+                            Currently pursuing a degree in Information Technology with a focus on software development and web technologies. Passionate about building scalable applications and continuously improving problem-solving skills.
+                        </p>
+                        <p>
+                            <strong>Relevant Coursework:</strong> Software Engineering, Web Development 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider"></div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-container">
+            <h2 class="section-title">
+                <span class="section-number">06.</span>
+                <span>Contact</span>
+            </h2>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <p class="contact-description">
+                            I'm always interested in hearing about new projects and opportunities. 
+                            Feel free to reach out if you want to collaborate or just say hello!
+                        </p>
+
+                        <div class="contact-methods">
+                            <a href="mailto:your.email@example.com" class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>bernadasbenedictt@gmail.com</span>
+                            </a>
+                            <a href="tel:+1234567890" class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+63 924 129 2151</span>
+                            </a>
+                        </div>
+
+                        <div class="social-links contact-social">
+                            <a href="https://github.com/ItsmeBen10" target="_blank" class="social-icon" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/benedict-bernadas-6395003b0/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <!-- Contact Form (from design) -->
+                        <form id="contact-form" class="contact-form" action="#" method="post" novalidate>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="full-name">Full Name</label>
+                                    <input type="text" id="full-name" name="name" placeholder="Enter full name" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter email address" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Enter a subject line">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="8" placeholder="Enter your message" minlength="30" required></textarea>
+                                <p class="help-text" id="message-help">30 more characters are required!</p>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" class="submit-button">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Ben. Built with <span class="heart">♥</span> and code.</p>
+    </footer>
+
+    <!-- Typed.js for hero typing animation -->
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
